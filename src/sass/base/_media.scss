@@ -1,0 +1,102 @@
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 30px 93px 30px;
+    }
+    .advantages {
+        padding: 70px 0px 65px 0px;
+        &__icons {
+            display: flex;
+            justify-content: space-around;
+        }
+        &__icon {
+            width: 220px;
+        }
+        &__text {
+            width: 220px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding: 21px 20px 93px 20px;
+    }
+    .header__official {
+        display: none;
+    }
+    .advantages {
+        padding: 70px 0px 65px 0px;
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 30px;
+            width: 270px;
+        }
+        &__text {
+            width: 270px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 535px;
+        padding: 21px 20px 93px 20px;
+        &__icons {
+            display: none;
+        }
+        &__link {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__header {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 36px;
+        }
+        &__subheader {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        &__contacts {
+            margin-top: 10px;
+        }
+    }
+    
+    .button_main {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .advantages {
+        padding: 70px 0px 65px 0px;
+        &__info {
+            font-size: 20px;
+        }
+        &__icons {
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 30px;
+            width: 220px;
+        }
+        &__title {
+            margin-top: 10px;
+        }
+        &__text {
+            width: 220px;
+        }
+    }
+}
+
